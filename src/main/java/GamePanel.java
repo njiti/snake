@@ -37,9 +37,15 @@ public class GamePanel extends JPanel implements ActionListener {
     }
 
     public void paintComponent(Graphics g){
+        super.paintComponent(g);
     }
 
     public void draw(Graphics g) {
+
+        for(int i=0;i<SCREEN_HEIGHT/UNIT_SIZE;i++) {
+
+        }
+
     }
 
     public void newApple() {
